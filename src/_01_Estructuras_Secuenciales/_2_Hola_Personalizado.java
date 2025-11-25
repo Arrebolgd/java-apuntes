@@ -7,6 +7,7 @@ public class _2_Hola_Personalizado {
     public static void main(String[] args) {
         /* Solicite al usuario el nombre y su edad, para luego saludarle. */
 
+
         Scanner input = new Scanner(System.in);
         String nombre;
         int edad;
