@@ -1,4 +1,4 @@
-package _01_Estructuras_Secuenciales;
+package _01_Estructuras_Secuenciales_1;
 
 public class _1_Saludo {
     public static void main(String[] args) {
