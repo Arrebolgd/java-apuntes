@@ -13,6 +13,6 @@ public class Practica_1 {
         · Calcular cuantos billetes de 5€ completos le darían en el banco si llevara to-do ese dinero.
         · Calcular el dinero sobrante que no llega a formar un billete de 5€.
          */
-
+        int monedas2e, monedas1e, monedas50c, monedas20c, monedas10c;
     }
 }
