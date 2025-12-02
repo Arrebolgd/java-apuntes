@@ -62,24 +62,80 @@ public class _01_Operadores_Basicos {
 
         // /=
         // Divide y asigna
+        numero1 /= numero2;
+        System.out.println("· Comprobación de Asignación Compuesta [/=]: " + numero1);
 
         // %=
         // Devuelve el modulo (resto de la división) y asigna
+        numero1 %= numero2;
+        System.out.println("· Comprobación de Asignación Compuesta [%=]: " + numero1);
 
         // Operadores Lógicos
 
+        // ==
+        // EQUALS
+        if(1 == 1) // 1 EQUALS 1 (TRUE)
+            System.out.println("TRUE");
+        else
+            System.out.println("FALSE");
+
+        // !=
+        // NOT EQUAL
+        if(1 != 2) // 1 NOT EQUALS 2 (TRUE)
+            System.out.println("TRUE");
+        else
+            System.out.println("FALSE");
+
         // >
+        // Mayor que
+        if(1 > 2) // 1 MAYOR 2 (FALSE)
+            System.out.println("TRUE");
+        else
+            System.out.println("FALSE");
 
         // <
+        // Menor que
+        if(1 < 2) // 1 MENOR QUE 2 (TRUE)
+            System.out.println("TRUE");
+        else
+            System.out.println("FALSE");
 
         // >=
+        // Mayor o Igual que
+        if(2 >= 2) // 2 IGUAL O MAYOR QUE 2 (TRUE)
+            System.out.println("TRUE");
+        else
+            System.out.println("FALSE");
 
         // <=
+        // Menor o Igual que
+        if(1 <= 2) // 1 MENOR O IGUAL A 2 (TRUE)
+            System.out.println("TRUE");
+        else
+            System.out.println("FALSE");
 
         // ||
+        // OR
+        // Si da (TRUE) en alguna de las opciones se cumple la condición.
+        if(1 > 2 || 1 == 1) // 1 MAYOR QUE 2 (FALSE) OR 1 EQUALS 1 (TRUE)
+            System.out.println("TRUE");
+        else
+            System.out.println("FALSE");
 
         // &&
+        // AND
+        // Si ambas opciones son (TRUE) se cumple la condición.
+        if(1 < 2 && 1 == 1) // 1 MENOR QUE 2 (TRUE) AND 1 EQUALS 1 (TRUE)
+            System.out.println("TRUE");
+        else
+            System.out.println("FALSE");
 
         // !
+        // NOT
+        // Niega la condicion (TRUE) pasa a ser (FALSE) y (FALSE) pasa a ser (TRUE)
+        if(!(1 < 2)) // 1 MENOR QUE 2 (!(TRUE)) NOT TRUE
+            System.out.println("TRUE");
+        else
+            System.out.println("FALSE");
     }
 }
