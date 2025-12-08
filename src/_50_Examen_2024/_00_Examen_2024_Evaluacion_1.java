@@ -1,7 +1,5 @@
-package _90_Examen_2024;
+package _50_Examen_2024;
 
-import java.util.Arrays;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class _00_Examen_2024_Evaluacion_1 {
